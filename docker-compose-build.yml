@@ -7,7 +7,7 @@ services:
     ports:
     - 5000:5000
   prometheus:
-    image: promcustom
+    image: devtool09/promcustom
     build: ./prometheus_custom
     container_name: prom
     ports:
