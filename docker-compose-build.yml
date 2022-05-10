@@ -6,6 +6,7 @@ services:
     restart : always
     ports:
     - 5000:5000
+    - 9400:9400
   prometheus:
     image: devtool09/promcustom
     build: ./prometheus_custom
