@@ -8,7 +8,7 @@ stages {
    }
    stage('Download backend dependency') {
        steps {
-           dir('back-end') {
+           dir('backend') {
                sh 'npm install'
            }
        }
