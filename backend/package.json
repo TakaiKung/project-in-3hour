@@ -14,6 +14,14 @@
     "express": "^4.18.1",
     "jest": "^28.1.0",
     "mongodb-memory-server": "^8.5.2",
-    "mongoose": "^6.3.2"
+    "mongoose": "^6.3.2",
+    "@opentelemetry/api": "^1.0.4",
+    "@opentelemetry/auto-instrumentations-node": "^0.28.0",
+    "@opentelemetry/exporter-prometheus": "^0.27.0",
+    "@opentelemetry/exporter-zipkin": "^1.0.1",
+    "@opentelemetry/instrumentation-express": "^0.28.0",
+    "@opentelemetry/instrumentation-http": "^0.27.0",
+    "@opentelemetry/sdk-metrics-base": "^0.27.0",
+    "@opentelemetry/sdk-node": "^0.27.0",
   }
 }
