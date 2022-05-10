@@ -40,7 +40,11 @@ https://www.notion.so/takai-docs/b99d3613c80b4eeb87040dc83c3f6cd1?v=0bdd4da2c99a
 
 # Step to run
 ถ้าจะรันจากตัว docker-compose-build.yml
+
 ```docker-compose -f docker-compose-build.yml up```
+
 ตัว service backend อยู่ port 5000 ลิงค์ localhost:5000/api/falcuties เพื่อดูว่ามี response ออกมารึป่าว
+
 เข้า ดูที่ port 9400 ดู metric ลิงค์ localhost:9400/metrics
+
 เข้าดูที่ port 9090 ดู โพรมีธีอุส ลิงค์ localhost:9090 ไปดู ตรง target ได้ครับว่า up มั้ย
