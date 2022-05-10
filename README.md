@@ -46,6 +46,8 @@ https://takai-docs.notion.site/b99d3613c80b4eeb87040dc83c3f6cd1?v=0bdd4da2c99a4d
 
 ```docker-compose -f docker-compose-build.yml up```
 
+โคลน git มา
+
 ตัว service backend อยู่ port 5000 ลิงค์ localhost:5000/api/falcuties เพื่อดูว่ามี response ออกมารึป่าว
 
 เข้า ดูที่ port 9400 ดู metric ลิงค์ localhost:9400/metrics
