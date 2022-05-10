@@ -26,7 +26,10 @@
 3. user จะเห็นดรอปดาวลงมา กดเลือกคณะ
 4. user จะเห็น ข้อมูลคณะที่เลือกด้านล่างแถบค้นหา
 
-### UI flow 
+### Test Strategy
+Backend
+* Unit test
+* Intregation test
 
 ### Aceptence Test
 
