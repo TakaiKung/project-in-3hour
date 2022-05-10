@@ -4,7 +4,7 @@ const configs = require('./configs/database.js');
 const facultyModel = require('./model/model.js');
 const app = express();
 const cors = require('cors')
-const port = 3000;
+const port = 5000;
 
 mongoose.Promise = global.Promise 
 mongoose.connect(configs.mongouri, {
